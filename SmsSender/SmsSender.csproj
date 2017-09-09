@@ -81,7 +81,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\TextItWrapper\TextItWrapper\TextItWrapper.csproj">
+    <ProjectReference Include="..\TextItWrapper\TextItWrapper\TextItWrapper.csproj">
       <Project>{e3823880-fcb8-4909-b61c-805e38851f9f}</Project>
       <Name>TextItWrapper</Name>
     </ProjectReference>

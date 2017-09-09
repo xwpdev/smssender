@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsSender", "SmsSender\SmsSender.csproj", "{7E12FFA1-E524-44FC-93BD-2224151C8F53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextItWrapper", "..\TextItWrapper\TextItWrapper\TextItWrapper.csproj", "{E3823880-FCB8-4909-B61C-805E38851F9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextItWrapper", "TextItWrapper\TextItWrapper\TextItWrapper.csproj", "{E3823880-FCB8-4909-B61C-805E38851F9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
