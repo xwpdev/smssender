@@ -38,11 +38,12 @@
             // 
             // btn_Load
             // 
-            this.btn_Load.Location = new System.Drawing.Point(12, 12);
+            this.btn_Load.Location = new System.Drawing.Point(13, 18);
+            this.btn_Load.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_Load.Name = "btn_Load";
-            this.btn_Load.Size = new System.Drawing.Size(220, 23);
+            this.btn_Load.Size = new System.Drawing.Size(527, 35);
             this.btn_Load.TabIndex = 0;
-            this.btn_Load.Text = "Load";
+            this.btn_Load.Text = "Load from CSV";
             this.btn_Load.UseVisualStyleBackColor = true;
             this.btn_Load.Click += new System.EventHandler(this.Btn_Load_Click);
             // 
@@ -53,37 +54,41 @@
             // ListView_Contacts
             // 
             this.ListView_Contacts.CheckBoxes = true;
-            this.ListView_Contacts.Location = new System.Drawing.Point(12, 41);
+            this.ListView_Contacts.Location = new System.Drawing.Point(13, 63);
+            this.ListView_Contacts.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ListView_Contacts.Name = "ListView_Contacts";
             this.ListView_Contacts.RightToLeftLayout = true;
-            this.ListView_Contacts.Size = new System.Drawing.Size(220, 170);
+            this.ListView_Contacts.Size = new System.Drawing.Size(527, 259);
             this.ListView_Contacts.TabIndex = 1;
             this.ListView_Contacts.UseCompatibleStateImageBehavior = false;
             this.ListView_Contacts.View = System.Windows.Forms.View.List;
             // 
             // TextBox_Message
             // 
-            this.TextBox_Message.Location = new System.Drawing.Point(12, 249);
+            this.TextBox_Message.Location = new System.Drawing.Point(13, 383);
+            this.TextBox_Message.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBox_Message.MaxLength = 140;
             this.TextBox_Message.Multiline = true;
             this.TextBox_Message.Name = "TextBox_Message";
-            this.TextBox_Message.Size = new System.Drawing.Size(220, 172);
+            this.TextBox_Message.Size = new System.Drawing.Size(527, 262);
             this.TextBox_Message.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 230);
+            this.label1.Location = new System.Drawing.Point(13, 358);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 13);
+            this.label1.Size = new System.Drawing.Size(107, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "Add message";
             // 
             // btn_Send
             // 
-            this.btn_Send.Location = new System.Drawing.Point(12, 427);
+            this.btn_Send.Location = new System.Drawing.Point(13, 657);
+            this.btn_Send.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_Send.Name = "btn_Send";
-            this.btn_Send.Size = new System.Drawing.Size(220, 23);
+            this.btn_Send.Size = new System.Drawing.Size(527, 35);
             this.btn_Send.TabIndex = 4;
             this.btn_Send.Text = "Send";
             this.btn_Send.UseVisualStyleBackColor = true;
@@ -91,14 +96,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(244, 468);
+            this.ClientSize = new System.Drawing.Size(553, 706);
             this.Controls.Add(this.btn_Send);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TextBox_Message);
             this.Controls.Add(this.ListView_Contacts);
             this.Controls.Add(this.btn_Load);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
